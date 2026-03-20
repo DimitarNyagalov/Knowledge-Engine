@@ -1,9 +1,9 @@
 #include <iostream>
+#include "test.h"
 using namespace std;
 
 // Declare the external functions from other files
 int contentsMain();
-int testMain();
 
 int main() {
     int choice = 0;
