@@ -1,27 +1,49 @@
 <h1 align = "center"> Knowedge Engine</h1>
  
 <p align="center">
-<img width="524" height="524" alt="Gemini_Generated_Image_978zyp978zyp978z" src="https://github.com/user-attachments/assets/e1f824b1-d45b-462a-adea-50778c406e8e" />
+<img width="600" height="6000" alt="Knowledge_Engine_mat-removebg-preview" src="https://github.com/user-attachments/assets/4c49767a-11e4-48b3-877f-f956000ac65f" />
 </p>
  
 <h2 align="center">📑 Table of Contents</h2>
  
-<p align="center">
-  <a href="#about-the-game">
-    <img src="https://img.shields.io/badge/About%20The%20Game-181818?style=for-the-badge&color=blue" />
-  </a>
-  <a href="#how-to-build-and-play">
-    <img src="https://img.shields.io/badge/How%20to%20Build%20and%20Play-181818?style=for-the-badge&color=green%22" />
-  </a>
-  <a href="#technologies">
-    <img src="https://img.shields.io/badge/Technologies-181818?style=for-the-badge&color=orange" />
-  </a>
-  <a href="#our-team">
-    <img src="https://img.shields.io/badge/Our%20Team-181818?style=for-the-badge&color=purple" />
-  </a>
-</p>
- 
+<p align="center"><a href="#about-the-project"><img src="https://img.shields.io/badge/About%20The%20Project-181818?style=for-the-badge&color=blue" /></a><a href="#build"><img src="https://img.shields.io/badge/Build%20%26%20Run-181818?style=for-the-badge&color=green" /></a><a href="#tech"><img src="https://img.shields.io/badge/Technologies-181818?style=for-the-badge&color=purple" /></a></p>
 <hr>
+<h2 align="center" id="about-the-project">🧠 About The Project</h2>
+Knowledge Engine is a C++ console application for learning and testing math skills.
+
+It includes a study section, a randomized test generator and weighted scoring.
+
+What It Does
+- Shows 5 learning units: Addition, Subtraction, Multiplication and Division.
+- Generates a balanced 20‑question test.
+- Calculates score, grade, and category performance.
+- Uses a clean, modular C++ architecture.
+<hr>
+<h2 align="center" id="build">🛠️ Build & Run</h2>
+
+Linux / macOS:
+
+```g++ -std=c++17 src/main.cpp -I src \
+src/ui/contents.cpp src/ui/test.cpp \
+src/io/question_loader.cpp src/io/results_manager.cpp \
+src/test/generator.cpp src/test/scoring.cpp \
+src/stats/statistics.cpp -o knowledge
+./knowledge
+```
+
+
+Windows (MinGW)
+
+```g++ -std=c++17 src/main.cpp src/ui/contents.cpp src/ui/test.cpp ^
+src/io/question_loader.cpp src/io/results_manager.cpp ^
+src/test/generator.cpp src/test/scoring.cpp ^
+src/stats/statistics.cpp -I src -o knowledge.exe
+knowledge.exe
+```
+
+If g++ is missing:
+- Ubuntu/Debian: sudo apt install build-essential
+- Windows: Install MinGW‑w64
 <hr>
  
 <h2 align="center" id="technologies">🛠️ Technologies</h2>
@@ -32,6 +54,7 @@
     <a href="https://github.com/"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111612.png" alt="GitHub logo" width="70"/></a>
     <a href="https://www.cplusplus.com/"><img src="https://brandslogos.com/wp-content/uploads/thumbs/c-logo-vector.svg" alt="C++ logo" width="70"/></a>
     <a href="https://visualstudio.microsoft.com/vs/"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" alt="Visual Studio logo" width="70"/></a>
+    <a href="https://visualstudio.microsoft.com/vs/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="Visual Studio logo" width="70"/></a>
     <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img src="https://img.icons8.com/color/344/microsoft-teams.png" alt="MS Teams logo" width="70" /></a>
     <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/color/344/ms-word.png" alt="MS Word logo" width="70" /></a>
     <a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="https://img.icons8.com/color/344/ms-powerpoint.png" alt="MS PowerPoint logo" width="70" /></a>
