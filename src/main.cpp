@@ -3,5 +3,7 @@
 using namespace std;
 int main()
 {
-    
+    MathContents ui;
+    ui.showMainMenu();
+    return 0;
 }
