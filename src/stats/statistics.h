@@ -13,4 +13,6 @@ public:
     void display() const;
 };
 
+extern Statistics stats;
+
 #endif
