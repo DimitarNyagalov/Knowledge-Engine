@@ -6,7 +6,23 @@
  
 <h2 align="center">📑 Table of Contents</h2>
  
-<p align="center"><a href="#about-the-project"><img src="https://img.shields.io/badge/About%20The%20Project-181818?style=for-the-badge&color=blue" /></a><a href="#build"><img src="https://img.shields.io/badge/Build%20%26%20Run-181818?style=for-the-badge&color=green" /></a><a href="#tech"><img src="https://img.shields.io/badge/Technologies-181818?style=for-the-badge&color=purple" /></a></p>
+<p align="center">
+  <a href="#about-the-project">
+    <img src="https://img.shields.io/badge/About%20The%20Project-181818?style=for-the-badge&color=blue" />
+  </a>
+  <a href="#build">
+    <img src="https://img.shields.io/badge/Build%20%26%20Run-181818?style=for-the-badge&color=green" />
+  </a>
+  <a href="#tech">
+    <img src="https://img.shields.io/badge/Technologies-181818?style=for-the-badge&color=purple" />
+  </a>
+  <a href="LINK_TO_DOCUMENTATION">
+    <img src="https://img.shields.io/badge/Documentation-181818?style=for-the-badge&color=orange" />
+  </a>
+  <a href="LINK_TO_PRESENTATION">
+    <img src="https://img.shields.io/badge/Presentation-181818?style=for-the-badge&color=red" />
+  </a>
+</p>
 <hr>
 <h2 align="center" id="about-the-project">🧠 About The Project</h2>
 Knowledge Engine is a C++ console application for learning and testing math skills.
@@ -60,7 +76,16 @@ If g++ is missing:
     <a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="https://img.icons8.com/color/344/ms-powerpoint.png" alt="MS PowerPoint logo" width="70" /></a>
 </p>
 <hr>
- 
+
+
+<h2 align="center" id="Presentation">Presentation</h2>
+https://github.com/DimitarNyagalov/Knowledge-Engine/blob/main/KnowedgeEngine-presentation.pptx
+<hr>
+
+<h2 align="center" id="Documentation">Documentation</h2>
+https://github.com/DimitarNyagalov/Knowledge-Engine/blob/main/Knowledge%20Engine-Documentation.docx
+<hr>
+
 <h2 align="center" id="our-team">👥 Our Team</h2>
  
 <p align="center">
